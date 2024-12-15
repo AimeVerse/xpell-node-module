@@ -1,0 +1,17 @@
+{
+  "name": "xpell-node-test-module",
+  "version": "1.0.0",
+  "description": "Xpell node example for test module",
+  "main": "xapp",
+  "type":"module",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "tsc && node ./dist/xapp.js",
+    "server": "node ./dist/xapp.js"
+  },
+  "author": "Tamir Fridman",
+  "license": "ISC",
+  "dependencies": {
+    "xpell-node": "^0.0.55"
+  }
+}
